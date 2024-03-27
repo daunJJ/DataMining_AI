@@ -76,7 +76,7 @@
      * batch size 조절 
 * 결과: 최종적으로 94.16% Accuracy 달성
 
-### 2. CIFAR10 데이터셋 분류 
+### 2. STL10 데이터셋 분류 
 * 데이터: 10개의 class를 가지는 [STL10 데이터셋](https://cs.stanford.edu/~acoates/stl10/)
 
   <img src="https://github.com/daunJJ/DataMining_AI/assets/109944763/bbfbc6c6-1898-460d-930f-79e263d61760" width="300" height= "250"/>
