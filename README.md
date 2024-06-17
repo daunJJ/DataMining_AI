@@ -33,19 +33,13 @@
 **CIFAR10 데이터셋 분류**
 1. 기본 모델 적합 (VGG16 모델 사용) 
   2. 하이퍼 파라미터 조절
-     * learning rate, epoch 조절
   3. 옵티마이저 변경
-     * Adam에서 SGD 옵티마이저로 변경
-  4. 모델 변경
-     * GoogLeNet으로 변경 
+  4. 모델 변경 (GoogLeNet)
   5. 하이퍼 파라미터 조절
-     * batch size 조절
    
 **STL10 데이터셋 분류**
 1. 기본 모델 적합 (Resnet 모델 사용) 
   2. 하이퍼 파라미터 조절
-     * batch size, learning rate, epoch 수를 적절하게 선정
   3. torchvision.transforms 모듈 조절
-     * 이미지 resize, normalize 등 다양한 시도
   4. convolution layer 추가
 
